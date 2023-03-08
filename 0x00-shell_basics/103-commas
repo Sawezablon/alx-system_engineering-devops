@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | sed 's/\(.*\/\)/\1,/' | sed 's/"/\\\\"/g' | awk '{printf "%s%s", $0, NR==NR-1?"":"\n"}'
+ls -1a | sed 's/\(.*\/\)/\1,/' | sed 's/"/\\\\"/g' | paste -sd "" | sed 's/,$/\n/'
