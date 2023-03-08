@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aQ | sed 's/\([^0-9a-zA-Z/]\)/\\\1/g' | sed 's/"/\\\"/g' | sed -E 's/(.*)\/$/\1\//' | LC_ALL=C sort -df --key=1.2 | tr '\n' ','; echo ''
+ls -1aQ | sed 's/\([^0-9a-zA-Z/]\)/\\\1/g' | sed 's/"/\\\"/g' | sed -E 's/(.*)\/$/\1\//' | LC_ALL=C sort -df --key=1.2 | tr '\n' ',' | awk '{printf "%s\n", $0}'
