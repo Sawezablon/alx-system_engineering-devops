@@ -13,4 +13,5 @@ Here are some basic shell commands:
 8. mv: moves a file or directory.
 9. cat: displays the contents of a file.
 10. grep: searches for a pattern in a file.
+
 Shell scripts are sequences of shell commands that can be saved and executed as a file. They are used to automate tasks and are commonly used for system administration and other repetitive tasks. Shell scripts can be written in various scripting languages, such as Bash, Python, Perl, and Ruby.
