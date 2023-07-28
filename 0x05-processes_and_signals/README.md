@@ -49,5 +49,5 @@
     2. In between every I am alive! message, the program should pause for 2 seconds
     ![Alt text](image-1.png)
 - Write a C program that creates 5 zombie processes.
-![Alt text](image-2.png)
+    ![Alt text](image-2.png)
 
