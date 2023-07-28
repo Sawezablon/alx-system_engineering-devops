@@ -43,8 +43,11 @@
     3. Displays I hate the kill command when receiving a SIGTERM signal
     4. Displays Y U no love me?! when receiving a SIGINT signal
     5. Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
+    ![Alt text](image.png)
 - Write a manage_my_process Bash script that:
     1. Indefinitely writes I am alive! to the file /tmp/my_process
     2. In between every I am alive! message, the program should pause for 2 seconds
+    ![Alt text](image-1.png)
 - Write a C program that creates 5 zombie processes.
+![Alt text](image-2.png)
 
