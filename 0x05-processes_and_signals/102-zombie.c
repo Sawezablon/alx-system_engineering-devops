@@ -16,8 +16,8 @@ int infinite_while(void)
 }
 
 /**
- * main - the entry to a program that creats 5 zombie process
- * Return: 0 on sucess
+ * main - Entry point
+ * Return: 0
 */
 int main(void)
 {
