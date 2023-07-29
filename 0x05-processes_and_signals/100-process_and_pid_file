@@ -1,5 +1,6 @@
-#!/usrn/bin/env bash
-# Bash script that Creates the file /var/run/myscript.pid containing its PID
+#!/usr/bin/env bash
+# Process and PID file
+
 file="/var/run/myscript.pid"
 
 if [ ! -e "$file" ]; then
@@ -14,7 +15,7 @@ trap 'echo "I hate the kill command"; rm "$file"; exit' SIGTERM SIGQUIT
 
 trap "echo Y U no love me?!" SIGINT
 
-while ((1)); do
-    echo To infinity and beyond
-    sleep 10
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
 done
