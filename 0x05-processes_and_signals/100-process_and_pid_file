@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # Process and PID file
 
+file="/var/run/myscript.pid"
 
-sleep 2 &
-
-echo "$!" > /var/run/myscript.pid
+echo "$!" > "$file"
 
 trap 'echo "I hate the kill command"; rm "$file"; exit' SIGTERM SIGQUIT
 
