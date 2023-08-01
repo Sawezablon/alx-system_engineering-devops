@@ -38,4 +38,4 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 Happy learning
 
 ----
-Created by [**Zablon Kiprotich**]
+Created by **Zablon Kiprotich**
