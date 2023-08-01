@@ -2,14 +2,11 @@
 A regular expression, commonly called a “regexp”, is a sequence of characters that define a search pattern.  It is mainly for use in pattern matching with strings, or string matching (i.e. it operates like a “find and replace” command). While it is a very powerful tool, it is also very dangerous because of its complexity.
 
 # Resources
-[Regular expressions - basics](https://www.slideshare.net/neha_jain/introducing-regular-expressions)
-
-[Regular expressions - advanced](https://www.slideshare.net/neha_jain/advanced-regular-expressions-80296518)
-
-[Rubular is your best friend](https://rubular.com/) [\n]
-[Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
-
-[Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
+- [Regular expressions - basics](https://www.slideshare.net/neha_jain/introducing-regular-expressions)
+- [Regular expressions - advanced](https://www.slideshare.net/neha_jain/advanced-regular-expressions-80296518)
+- [Rubular is your best friend](https://rubular.com/)
+- [Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
+- [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
 
 ## General
